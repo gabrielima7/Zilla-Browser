@@ -7,3 +7,6 @@ edition = "2021"
 wry = "0.53.3"
 tao = "0.34.3"
 tokio = { version = "1.47.1", features = ["full"] }
+adblock = { version = "0.10.1", features = ["css-validation", "resource-assembler"] }
+reqwest = { version = "0.12.23", features = ["rustls-tls", "blocking"] }
+lazy_static = "1.5.0"

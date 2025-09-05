@@ -1,3 +1,4 @@
+mod adblock;
 mod gui;
 mod networking;
 mod rendering;
